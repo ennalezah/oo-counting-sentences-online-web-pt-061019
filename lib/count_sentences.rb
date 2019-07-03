@@ -18,7 +18,9 @@ class String
     # self.split(/[.?!]\s+ [A-Z]/)
     # string.scan(/[?!.]\s+[A-Z]/).length
     # string.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
-    sentence_count = text.split(/\.|\?|!/).length 
+    sentence_count = self.split(/\.|\?|!/).length 
+    
+    
 
   end
 end
